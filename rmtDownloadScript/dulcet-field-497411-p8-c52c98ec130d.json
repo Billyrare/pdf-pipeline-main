@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dulcet-field-497411-p8",
+  "private_key_id": "c52c98ec130d5e5bdbde85275e0d56d037309582",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDkHJ1jRu6ptxuI\njTq1Ypi+s9iGXlDkEzXj/+Kzjucmka+aqMjED8ZYLp/5QpoOIATl//2qYSC55Ezm\n1Oz0GMvaREy5RtQOz3UYkqWiDbQDKzPPWHGERy1k4IKojBcEUpf0tax+HjZGFcov\nuVoTY1E2tu7L7SVxprsBP0scxnK1CEd4Qch/a2OrV9Plf61HCrAWM90yWPoSR7hG\n8/MHU2GABjNPgO1hTf+denj/PBQ43dIduSHf/a94wE+/ds6g1fcGMhllWVt7uCvO\nFZ9SYOTUyIrQhDk94iZ0cL851zgLx8Nc5MrDg6tfVIdwiJjrS/WADm8RlgkLomJ4\njLykNqgbAgMBAAECggEABEjhT+8SJo/w7XSxqJyMf/CC3atB27bcqUayLGs/vkK4\nSLBo7P3a3OcrTBRLLn69eNCBJEUkxzkZlLBlLwSUN6pWwpgo/Yo6CdcfU1bsja6v\nD3L61uA7Ywywh5fyCru+bPNIpSnOHSzlmlXh8kFIUj3HaH8w19yo4JIeyBCWMP5I\nucACElsoLaTSmczcV9CIyE/uZSa2iyjNmh4STmNagG+iUb1gQz79OG7PbRNGJXtA\nGgttz6Bc9tNwO4AocJTNKOQDJD3ZSXFUIq/2lb37lok05rvhzlpsRKkMex2I+vzj\nuFJQ9JqbrZepSAWKTOerYxQA8rofSQveSQVC4tIleQKBgQD/fdvWkmFqek33Fae+\nyNfAXVtRAtIqt/uLMI0MtepdcyloX9h+u4lZ1AuKTspZUA61weEHIFUdX1ILlJs/\nfPvHeBhMNJpEMnQOpLv7ugoVEL0awJCOEOrv4fC/03sqgAe5HjAIgLrBqI4KO4hG\nfFUiGXAtIXxOpOgt0Z1Ik0YP7QKBgQDkkM812nud8CeM00hoojOk41RYYt7XSCIC\neNXc3TsUUKEophpk87N/byv/jtEjW1AiHs0c0RdKhXyae+GaN1m4P98mWlc1YUL0\nMJu2yex5j+OgUlYhP6Jxnan59W71Gw/1Mm3JWSCdJIIYnq67/C0K+prsutkMuAIX\nWkrEh63HJwKBgBQHt/6Ah2ajpA0lA3uvn0qThx84y2VR+0SUT9qZQICHEM4ABacZ\n6NDEEQuM1cxevGh/hLbcUA/3cyU5R1qY39xpi+4diaKjGfoz7BD2Kugv4cOBKVQZ\n+3FHE2rWl6djVjerKDTicsHQByLCPBLamIoN2H+RSn+X6iP9dQlFko6ZAoGATt8l\nkcjV9XdEvpS+HNU0CwcjOOjNSu6qRb4a1n9E/sqgAh3nZ8SswSHExggrZQ8ChPOq\nBfKlHeMYT1rGS+gjvq/TujFcfKAWcZtAcIAXaQ9dFhqze/+wd5JXcFjgNBZlmFAR\nkHSAC5nohsRjOZ1YkbxOr7f+ZCQvHI3c1RqYvesCgYEA4wLbYFGqQfDFV6xPSyVL\nFwPe56hb3MpOYiVI3E7ZVniXavB9n+xVrpEv4NGP2TRYMzVM9MH6r3xwKmLUrYue\nrCksUQKOIS+KRq54Q/ywja5Paq9nOCHofWxEMt9JKm/xW7x8e/cyQGrpAbxfxEeG\n6RdNgdWOjrmc4XOQH1SrYRA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-sheets-app@dulcet-field-497411-p8.iam.gserviceaccount.com",
+  "client_id": "103886715704823613307",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-sheets-app%40dulcet-field-497411-p8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
