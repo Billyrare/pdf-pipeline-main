@@ -40,6 +40,7 @@ pip install -r requirements.txt
 - `ANTHROPIC_API_KEY` — токен для Anthropic, используемый при конвертации через ИИ.
 - `DB_URL` — строка подключения к PostgreSQL, где сохраняются результаты конвертации.
 
+
 После `yarn cv` конвертированный JSON сохраняется в базу PostgreSQL. В таблице сохраняется связка `id документа` + `json`.
 
 ## Установка
@@ -113,6 +114,17 @@ yarn cv
 - `log.txt` помогает найти последний загруженный продукт.
 - `progress.json` нужен только для `runner.js` и `docs/ids`-потока.
 - При работе с `uzpharm` используйте файлы `docs/ids/ids1.txt`…`ids36.txt`, чтобы снизить риск блокировки.
+- `config.js` - файл в основном с промтом, можно корректировать если нужно.
+
+
+# Подключение БД Postgresql
+```
+Host: dpg-d8e0en4p3tds73826ko0-a.oregon-postgres.render.com
+Port: 5432
+Database: postgresql_0v1w
+Username: postgresql_0v1w_user
+Password: 2fMb7HyWrO4uTKTBjtz5vL0M878x6P0D
+```
 
 ## Статус
 
