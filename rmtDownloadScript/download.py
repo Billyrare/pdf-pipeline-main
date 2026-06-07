@@ -11,7 +11,7 @@ DOWNLOAD_DIR = 'asl_belgisi_documents'
 BASE_STATIC_URL = 'https://xtrace.aslbelgisi.uz/xtrc-static-product/'
 LOG_FILE = 'log.txt'
 
-START_ROW = 2
+START_ROW = 2 
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name(GOOGLE_JSON_KEY, scope)
