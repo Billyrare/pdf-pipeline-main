@@ -22,8 +22,6 @@ const filesToProcess = lastProcessedFile
     : files;
 
 let isStopping = false;
-
-// ПЕРЕХВАТ Ctrl+C
 process.on('SIGINT', () => {
     if (!isStopping) {
         console.log('\n\n[WAIT] 🛑 Сигнал остановки получен! Докачиваем текущий файл и выходим...');
@@ -41,26 +39,21 @@ for (const file of filesToProcess) {
 
     console.log(`\n>>> В РАБОТЕ: ${file}`);
     
-    // Используем spawnSync, чтобы лучше контролировать процесс
     const result = spawnSync('yarn', ['dw'], {
         stdio: 'inherit',
-        shell: true, // важно для Windows
+        shell: true, 
         env: { 
             ...process.env, 
             CURRENT_IDS_FILE: file 
         },
-        // Это заставляет дочерний процесс игнорировать Ctrl+C, 
-        // пока мы сами не решим его убить (но мы даем ему доработать)
         killSignal: 'SIGTERM' 
     });
 
-    // Проверяем, завершился ли процесс успешно (код 0)
     if (result.status === 0) {
         fs.writeFileSync(progressFile, JSON.stringify({ lastFile: file }, null, 2));
         console.log(`✅ Файл ${file} полностью обработан.`);
     } else {
         console.log(`\n⚠️ Процесс ${file} был прерван или завершился с ошибкой.`);
-        // Если мы нажали Ctrl+C, то выходим из цикла, НЕ сохраняя этот файл как готовый
         break;
     }
 }
