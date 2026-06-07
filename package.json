@@ -1,0 +1,17 @@
+{
+  "name": "pdf-pipeline",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "cv": "node src/convert-pdf/index.js",
+    "dw": "node src/download-pdf/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "axios": "^1.16.1",
+    "dotenv": "^16.0.0",
+    "mammoth": "^1.12.0",
+    "pg": "^8.11.0",
+    "word-extractor": "^1.0.4"
+  }
+}
