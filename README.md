@@ -116,16 +116,6 @@ yarn cv
 - При работе с `uzpharm` используйте файлы `docs/ids/ids1.txt`…`ids36.txt`, чтобы снизить риск блокировки.
 - `config.js` - файл в основном с промтом, можно корректировать если нужно.
 
-
-# Подключение БД Postgresql
-```
-Host: dpg-d8e0en4p3tds73826ko0-a.oregon-postgres.render.com
-Port: 5432
-Database: postgresql_0v1w
-Username: postgresql_0v1w_user
-Password: 2fMb7HyWrO4uTKTBjtz5vL0M878x6P0D
-```
-
 ## Статус
 
 Проект объединяет два потока:
