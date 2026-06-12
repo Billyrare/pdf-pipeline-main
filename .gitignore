@@ -1,0 +1,30 @@
+# Local environment and secret configs
+.env
+.env.*
+!.env.example
+
+# Google service account credentials
+rmtDownloadScript/dulcet-field-497411-p8-c52c98ec130d.json
+*credentials*.json
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local runtime state
+progress.json
+
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
